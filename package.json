@@ -1,0 +1,30 @@
+{
+  "name": "playwright-cucumberjs",
+  "version": "1.0.0",
+  "description": "Demonstrate BDD with playwirght and cucumberjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:parallel": "cucumber-js --parallel 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refacore/playwright-cucumberjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/refacore/playwright-cucumberjs/issues"
+  },
+  "homepage": "https://github.com/refacore/playwright-cucumberjs#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.52.0",
+    "@types/cucumber": "^6.0.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
